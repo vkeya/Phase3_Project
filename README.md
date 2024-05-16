@@ -19,7 +19,7 @@ By understanding the factors that contribute to churn, SyriaTel company can devi
 The SyriaTel dataset contains detailed information about customer usage patterns, plans, and service interactions. 
 Key attributes include account length, international plan, voice mail plan, total call minutes across different times of the day, customer service calls, and whether the customer churned or not.
 
-#### Dataset Choice
+### Dataset Choice
 The SyriaTel dataset is chosen for its comprehensive coverage of customer behavior and service usage. It includes attributes such as:
 - `Account length`: Duration of the customer's account in days.
 - `International plan`: Indicator if the customer has an international calling plan.
@@ -31,7 +31,7 @@ The SyriaTel dataset is chosen for its comprehensive coverage of customer behavi
 - `Customer service calls`: Number of customer service calls.
 - `Churn`: Indicator if the customer churned (1) or not (0).
 
-#### Stakeholder Audience
+### Stakeholder Audience
 The primary stakeholders for this analysis are the customer retention team, marketing strategists, and senior management within the telecommunications company. 
 They are interested in identifying the key factors driving customer churn and developing strategies to reduce churn rates.
 
