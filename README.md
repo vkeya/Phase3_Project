@@ -59,3 +59,21 @@ The models are evaluated based on:
 The analysis reveals key insights into customer behavior and churn patterns. 
 High usage during the day, frequent international calls, and multiple customer service interactions are significant predictors of churn. 
 These insights can guide the development of customer retention strategies, such as targeted offers for high-risk customers and improved customer service.
+
+## Limitations
+Phone Number Column: The 'phone number' column is likely irrelevant for predictive modeling and should be removed or transformed.
+Geographic Information: The 'state' column may introduce regional biases and might need to be encoded properly or analyzed for its impact on churn.
+Account Length: While this could be a significant feature, without context (e.g., is a longer account length generally better or worse?), it might be hard to interpret its impact directly.
+
+## Recommendations
+Address High Charges: Analyze the relationship between high total charges and churn. 
+Consider offering discounts or loyalty programs to high-usage customers to enhance their satisfaction and reduce churn risk.
+
+Improve Customer Service: Since frequent customer service calls are a strong churn predictor, focus on improving the quality of customer service. 
+Implement training programs for service representatives and ensure quick resolution of customer issues.
+
+Monitor High Usage: Keep an eye on customers with high total day minutes and total minutes. 
+Provide them with personalized offers or services to increase their satisfaction.
+
+International Plan Customers: Pay special attention to customers with international plans. 
+Ensure their specific needs are met, possibly by providing better international call rates or packages.
