@@ -1,6 +1,6 @@
 # Customer Churn Analysis Using SyriaTel Dataset
 
-![SyriaTel](https://github.com/vkeya/Phase3_Project/blob/master/Phase3_images/SyriaTel_Logo.jpg))
+![SyriaTel](https://github.com/vkeya/Phase3_Project/blob/master/Phase3_images/SyriaTel_Logo.jpg)
 
 
 
