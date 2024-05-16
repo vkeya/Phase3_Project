@@ -21,19 +21,57 @@ Key attributes include account length, international plan, voice mail plan, tota
 
 ### Dataset Choice
 The SyriaTel dataset is chosen for its comprehensive coverage of customer behavior and service usage. It includes attributes such as:
-- `Account length`: Duration of the customer's account in days.
-- `International plan`: Indicator if the customer has an international calling plan.
-- `Voice mail plan`: Indicator if the customer has a voice mail plan.
-- `Number vmail messages`: Number of voice mail messages.
-- `Total day minutes`, `Total eve minutes`, `Total night minutes`, `Total intl minutes`: Total minutes of calls during day, evening, night, and international.
-- `Total day calls`, `Total eve calls`, `Total night calls`, `Total intl calls`: Number of calls during day, evening, night, and international.
-- `Total day charge`, `Total eve charge`, `Total night charge`, `Total intl charge`: Charges for calls during day, evening, night, and international.
-- `Customer service calls`: Number of customer service calls.
-- `Churn`: Indicator if the customer churned (1) or not (0).
+Account length: The duration (in days) that the customer has had an account with the company.
+International plan: Binary indicator of whether the customer has an international calling plan (1 = Yes, 0 = No).
+Voice mail plan: Binary indicator of whether the customer has a voice mail plan (1 = Yes, 0 = No).
+Number vmail messages: Number of voice mail messages the customer has.
+Total day minutes: Total number of minutes the customer has used during the day.
+Total day calls: Total number of calls the customer has made during the day.
+Total day charge: Total charge for the customer's day usage.
+Total eve minutes: Total number of minutes the customer has used during the evening.
+Total eve calls: Total number of calls the customer has made during the evening.
+Total eve charge: Total charge for the customer's evening usage.
+Total intl calls: Total number of international calls made by the customer.
+Total intl charge: Total charge for the customer's international usage.
+Customer service calls: Number of calls the customer has made to customer service.
+Churn: Binary indicator of whether the customer has churned (1 = Yes, 0 = No).
+Total_calls: Total number of calls made by the customer.
+Total_minutes: Total number of minutes the customer has used.
+Total_charge: Total charge for the customer's usage.
+Day_calls_per_minute: Ratio of day calls to day minutes.
+Eve_calls_per_minute: Ratio of evening calls to evening minutes.
+Night_calls_per_minute: Ratio of night calls to night minutes.
 
 ### Stakeholder Audience
 The primary stakeholders for this analysis are the customer retention team, marketing strategists, and senior management within the telecommunications company. 
 They are interested in identifying the key factors driving customer churn and developing strategies to reduce churn rates.
+
+## Methodology
+The analysis of this dataset was conducted using a series of methodical steps to extract meaningful insights and develop a predictive model to identify potential churners. 
+Below is a breakdown of the methodology employed:
+
+### Data Preprocessing:
+Data Cleaning: Identifying and handling missing values, outliers, and any inconsistencies in the data.
+
+Data Transformation: Converting categorical variables into numerical formats using techniques such as one-hot encoding.
+
+### Exploratory Data Analysis (EDA):
+Descriptive Statistics: Calculating summary statistics for each column to understand the central tendency and dispersion of the data.
+
+Visualization: Using various plots (histograms, box plots, scatter plots) to visually inspect the distribution of variables and relationships between them.
+#### Univariate Analysis
+![Univariate](https://github.com/vkeya/Phase3_Project/blob/master/Phase3_images/Univariate_Analysis.png)
+
+#### Bivariate Analysis
+![Bivariate](https://github.com/vkeya/Phase3_Project/blob/master/Phase3_images/Bivariate_Analysis.png)
+
+#### Multivariate Analysis
+![Multivariate](https://github.com/vkeya/Phase3_Project/blob/master/Phase3_images/Multivariate_Analysis.png)
+
+### Feature Engineering:
+
+New Features: Creating new features such as Total_calls, Total_minutes, and Total_charge to provide additional insights.
+Ratios and Proportions: Calculating ratios such as Day_calls_per_minute, Eve_calls_per_minute, and Night_calls_per_minute to capture customer behavior more effectively.
 
 ## Modeling
 The project employs various machine learning models to predict customer churn. These models include:
