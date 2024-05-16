@@ -42,7 +42,9 @@ The project employs various machine learning models to predict customer churn. T
 - Random Forests
   
 Various machine learning models are used and tested to predict customer churn.
+
 The process involves:
+
 1. **Data Preprocessing**: Handling missing values, encoding categorical variables, and normalizing numerical features.
 2. **Model Training**: Using algorithms such as Logistic Regression, Decision Trees and Random Forests.
 3. **Hyperparameter Tuning**: Optimizing model parameters to improve performance.
@@ -50,19 +52,24 @@ The process involves:
 
 ## Evaluation
 The models are evaluated based on:
+
 - **Accuracy**: Proportion of correctly predicted churn and non-churn cases.
 - **Precision**: Proportion of true positive churn predictions out of all positive predictions.
 - **Recall**: Proportion of true positive churn predictions out of all actual churn cases.
 - **F1 Score**: Harmonic mean of precision and recall.
 
 ## Conclusion
-The analysis reveals key insights into customer behavior and churn patterns. 
+The analysis reveals key insights into customer behavior and churn patterns.
+
 High usage during the day, frequent international calls, and multiple customer service interactions are significant predictors of churn. 
+
 These insights can guide the development of customer retention strategies, such as targeted offers for high-risk customers and improved customer service.
 
 ## Limitations
 Phone Number Column: The 'phone number' column is likely irrelevant for predictive modeling and should be removed or transformed.
+
 Geographic Information: The 'state' column may introduce regional biases and might need to be encoded properly or analyzed for its impact on churn.
+
 Account Length: While this could be a significant feature, without context (e.g., is a longer account length generally better or worse?), it might be hard to interpret its impact directly.
 
 ## Recommendations
