@@ -57,8 +57,10 @@ Data Transformation: Converting categorical variables into numerical formats usi
 
 ### Exploratory Data Analysis (EDA):
 Descriptive Statistics: Calculating summary statistics for each column to understand the central tendency and dispersion of the data.
+![Statistics](https://github.com/vkeya/Phase3_Project/blob/master/Phase3_images/Descriptive%20statistics.png)
 
 Visualization: Using various plots (histograms, box plots, scatter plots) to visually inspect the distribution of variables and relationships between them.
+
 #### Univariate Analysis
 ![Univariate](https://github.com/vkeya/Phase3_Project/blob/master/Phase3_images/Univariate_Analysis.png)
 
@@ -74,19 +76,10 @@ New Features: Creating new features such as Total_calls, Total_minutes, and Tota
 Ratios and Proportions: Calculating ratios such as Day_calls_per_minute, Eve_calls_per_minute, and Night_calls_per_minute to capture customer behavior more effectively.
 
 ## Modeling
-The project employs various machine learning models to predict customer churn. These models include:
-- Logistic Regression
-- Decision Trees
-- Random Forests
-  
-Various machine learning models are used and tested to predict customer churn.
 
-The process involves:
-
-1. **Data Preprocessing**: Handling missing values, encoding categorical variables, and normalizing numerical features.
-2. **Model Training**: Using algorithms such as Logistic Regression, Decision Trees and Random Forests.
-3. **Hyperparameter Tuning**: Optimizing model parameters to improve performance.
-4. **Feature Selection**: Identifying the most important features contributing to churn.
+Model Selection: We Evaluated different machine learning models (i.e., logistic regression, decision trees, random forests) to predict churn.
+Model Training: Splitting the dataset into training and testing sets to train the selected model.
+Model Evaluation: Assessing the performance of the model using metrics such as accuracy, precision, recall, and F1-score.
 
 ## Evaluation
 The models are evaluated based on:
