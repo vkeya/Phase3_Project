@@ -134,6 +134,14 @@ Random Forest was the model of choice and was evaluated based on:
 
 ![Random_Forest](https://github.com/vkeya/Phase3_Project/blob/master/Phase3_images/Random_Forest_Results.png)
 
+#### Random Forest Classifier Model Justification
+
+Random Forest provides the highest accuracy and balanced performance across both classes.
+
+It is less prone to overfitting compared to a single Decision Tree.
+
+Provides a robust understanding of feature importance.
+
 ## Conclusion
 
 The analysis reveals key insights into customer behavior and churn patterns.
