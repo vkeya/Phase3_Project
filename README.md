@@ -122,15 +122,17 @@ Model Evaluation: Assessing the performance of the model using metrics such as a
 
 ## Evaluation
 
-The models are evaluated based on:
+Random Forest was the model of choice and was evaluated based on:
 
 - **Accuracy**: Proportion of correctly predicted churn and non-churn cases.
-- 
+ 
 - **Precision**: Proportion of true positive churn predictions out of all positive predictions.
-- 
+ 
 - **Recall**: Proportion of true positive churn predictions out of all actual churn cases.
-- 
+ 
 - **F1 Score**: Harmonic mean of precision and recall.
+
+![Random_Forest](https://github.com/vkeya/Phase3_Project/blob/master/Phase3_images/Random_Forest_Results.png)
 
 ## Conclusion
 
